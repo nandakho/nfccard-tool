@@ -1,6 +1,7 @@
 # nfccard-tool
-
-
+> [!NOTE]
+> This repo contains fix for parsing NDEF tag with data larger than 255 bytes
+> 
 > The toolbox for reading and writing nfc cards.
 > Parse card header, ndef message and records, prepare ndef records for writing...
 
@@ -23,17 +24,9 @@
 
 
 ## Install
-
-[npm](https://www.npmjs.com/):
-
+Install with npm with this command:
 ```sh
-npm install nfccard-tool --save
-```
-
-[yarn](https://yarnpkg.com/):
-
-```sh
-yarn add nfccard-tool --save
+npm install github:nandakho/nfccard-tool --save
 ```
 
 ## Features
